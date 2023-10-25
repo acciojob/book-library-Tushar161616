@@ -1,1 +1,60 @@
 /*  your css code here. If applicable */
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+body{
+	background-color:#f8f8f8;
+	height:600px;
+	width:350px;
+	border:2px solid black;
+}
+.book-library{
+	background-color:#ffffff;
+	border:2px solid black;
+	height:575px;
+	width:100;
+	margin:10px 20px;
+	border-radius:3px;
+}
+.book-library>h3{
+	background-color:rgb(241,241,240);
+	text-align:center;
+	padding:7px;
+	
+}
+.book{
+	border:2px solid red;
+	height:169px;
+	padding:10px;
+}
+.book>img{
+	height:85px;
+	width:80px;
+	padding:auto;
+}
+.main-content{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-evenly;
+	padding-top:10px;
+}
+#value{
+	width:280px;
+	background-cololr:#2ecc71;
+	padding:2px;
+}
+button{
+	background-cololr:#2ecc71;
+}
+.b2{
+	margin-bottom:10px;
+	margin-top:10px;
+}
+.book>p{
+	font-size:13px;
+}
+.book>h3{
+	color:#777777;
+}
