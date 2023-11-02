@@ -3,6 +3,7 @@
 	margin:0px;
 	padding:0px;
 	box-sizing:border-box;
+	font-family:sans-serif;
 }
 body{
 	background-color:#f8f8f8;
@@ -16,6 +17,7 @@ body{
 	width:100;
 	margin:10px 20px;
 	border-radius:3px;
+	box-shadow:20px;
 }
 #m-heading{
 	background-color:rgb(241,241,240);
@@ -27,11 +29,11 @@ body{
 	height:169px;
 	padding:10px;
 	background-color:rgb(241,241,240);
+	border-radius:4px;
 }
 .book>img{
 	height:85px;
 	width:80px;
-	margin:auto;
 	margin-left:100px;
 }
 .main-content{
@@ -39,15 +41,17 @@ body{
 	flex-direction:column;
 	justify-content:space-evenly;
 	padding-top:10px;
+	width:300px;
 }
 #value{
 	width:280px;
 	padding:2px;
 }
 .book>button{
-	background-color:#2ecc71;
+	background-color:rgb(46, 204, 113);
 	border:none;
 	border-radius:4px;
+	color:rgb(255, 255, 255);
 }
 .b2{
 	margin-bottom:10px;
@@ -55,6 +59,6 @@ body{
 }
 .book>p{
 	font-size:13px;
-	color:#777777;
+	color:rgb(119, 119, 119);
 }
 
