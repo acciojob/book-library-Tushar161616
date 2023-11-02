@@ -47,7 +47,7 @@ body{
 	width:280px;
 	padding:2px;
 }
-.book>button{
+.book>div>button{
 	background-color:rgb(46, 204, 113);
 	border:none;
 	border-radius:4px;
